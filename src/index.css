@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    margin: 0;
+    padding: 0;
+}
+.titleSection {
+    background-color: #5DB9FF;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.titleSection input {
+    width: 270px;
+    height:40px;
+    border-radius: 8px;
+    border: 1px solid #48a3e9;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.titleSection button {
+    width: 170px;
+    height:60px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #0091ff;
+    border: none;
+    color: white;
+    margin: 20px;
+}
+
+.titleSection button:hover {
+    cursor: pointer;
+}
+
+.dislpaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dislpaySection h4, h3 {
+    margin: 5px;
+}
+
+.dislpaySection img {
+    width: 250px;
+    margin: 0%;
 }
